@@ -3,7 +3,7 @@ import mediapipe
 from math import sqrt
 import numpy
 
-__author__ == "Shakir Sadiq"
+__author__ = "Shakir Sadiq"
 
 COUNTER = 0
 TOTAL_BLINKS = 0
@@ -74,7 +74,7 @@ while True:
         eyes_ratio = blinkRatio(frame, mesh_coordinatess, RIGHT_EYE, LEFT_EYE)
 
         cv2.putText(frame, "Please blink your eyes",(int(frame_height/2), 100), FONT, 1, (0, 255, 0), 2)
-        print(eyes_ratio)
+
         if eyes_ratio > 3:
             COUNTER +=1
 
