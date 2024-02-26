@@ -17,7 +17,7 @@ MediaPipe: A framework for building multimodal applied machine learning pipeline
 ### How to Clone
 Make sure you have Python installed on your system.<br>
 Clone the repository using the following command:<br>
-```https://github.com/Shakirsadiq6/Blink_Detection_Python.git```
+```https://github.com/Shakirsadiq6/Blink_Detection_Python.git```<br>
 Navigate to the project directory:<br>
 ```cd Blink_Detection_Python```
 
